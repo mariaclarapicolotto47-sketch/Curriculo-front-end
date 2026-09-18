@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Seletor por elemento */
+body {
+    background-color: #f7f1f5;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Seletor por ID */
+#titulo {
+    color: #8b3a62;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Seletor por elemento */
+h2 {
+    color: #8b3a62;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Seletor por classe */
+.destaque {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+/* Estilo para a foto */
+figure {
+    text-align: center;
+}
+
+figure img {
+    border-radius: 10px;
+}
+
+/* Links */
+a {
+    color: #8b3a62;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #e83ea4;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+/* Seletor por atributo */
+input[type="text"] {
+    border: 2px solid #8b3a62;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Outros campos do formulário */
+input[type="url"],
+input[type="tel"] {
+    border: 2px solid #8b3a62;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Botões */
+button {
+    background-color: #8b3a62;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e83ea4;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px #b88aa3;
+}
+
+/* Texto das datas */
+section p {
+    line-height: 1.5;
+}
+
+/* Linha horizontal */
+hr {
+    border: none;
+    border-top: 1px solid #d8b8c8;
+    margin: 30px 0;
+}
+
+/* Imagem da ODS */
+section figure img {
+    max-width: 100%;
+    height: auto;
+}

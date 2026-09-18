@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo Maria</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="titulo">Maria Clara Picolotto Silva</h1>
+
+    <figure>
+        <img src="imagens/foto perfil.jpeg" alt="Foto Maria Clara" width="140" height="180"> 
+        <figcaption>Maria Clara Picolotto Silva</figcaption>
+    </figure>
+    <hr>
+    <section>
+    <h2>Contato</h2>
+
+    <ul>
+        <li>
+            <strong>Telefone:</strong> (43) 9 8405-2446
+        </li>
+
+        <li>
+            <img src="icones/image email.png" alt="Ícone de e-mail" width="28">
+            <strong>E-mail:</strong> mariaclarapicolotto47@gmail.com
+        </li>
+
+        <li>
+            <img src="icones/image linkedin.png" alt="Ícone do LinkedIn" width="32">
+            <strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/in/maria-clara-picolotto-silva-704059425/">
+                LinkedIn
+            </a>
+        </li>
+
+        <li>
+            <img src="icones/image localizaçao.png" alt="Ícone de localização" width="27">
+            <strong>Cidade:</strong> CORNÉLIO PROCÓPIO
+        </li>
+
+        <li>
+            <strong>Github:</strong>
+            <a href="https://github.com/mariaclarapicolotto47-sketch">
+                Github
+            </a>
+        </li>
+    </ul>
+    <hr>
+    <section>
+    <h2>Habilidades</h2>
+
+    <ul>
+        <li>Facilidade de aprendizado</li>
+        <li>Comunicação</li>
+        <li>Organização de planilhas</li>
+        <li>Pacote Office (ênfase em Excel)</li>
+        <li>HTML (familiarizado)</li>
+    </ul>
+</section>
+    <hr>
+
+<section>
+    <h2>Idiomas</h2>
+
+    <p>Inglês intermediário - <strong>Wizard</strong></p>
+</section>
+<hr>
+<section>
+    <h2>Resumo</h2>
+
+    <p class="destaque">
+        Estudante de Análise e Desenvolvimento de Sistemas,
+        experiência como assistente administrativo.
+        Boa comunicação e facilidade em trabalhar em equipe.
+        Busco oportunidade para desenvolver minhas habilidades
+        na área de tecnologia. Tenho interesse em Front-end e
+        busco sempre aprender mais para contribuir com soluções eficientes.
+    </p>
+</section>
+<hr>
+<section>
+    <h2>ODS que pretendo contribuir</h2>
+
+    <figure>
+        <img src="imagens/image ods.png" alt="Imagem da ODS" width="400">
+        <figcaption>ODS que pretendo contribuir</figcaption>
+    </figure>
+</section>
+<hr>
+<section>
+    <h2>Experiência</h2>
+
+    <h4>Estagiária - BrasilMed</h4>
+
+    <p>Abril de 2025 - atual</p>
+
+    <p>Assistente administrativo:</p>
+
+    <ul>
+        <li>Organização de documentos</li>
+        <li>Atendimento e suporte</li>
+        <li>Auxílio em processos operacionais da empresa</li>
+        <li>Controle e organização de dados em planilhas</li>
+        <li>Atualização de informações e apoio em relatórios</li>
+    </ul>
+</section>
+<hr>
+<section>
+    <h2>Projetos e Atividades</h2>
+
+    <h4>Programa Futuras Cientistas - CNPq</h4>
+
+    <ul>
+        <li>Participação com bolsa por 2 meses</li>
+        <li>Desenvolvimento de atividades e projetos voltados à área científica</li>
+        <li>Aprimoramento do pensamento crítico e trabalho em equipe</li>
+    </ul>
+</section>
+
+<hr>
+
+    <!-- botão para o formulário com modal -->
+    <button onclick="document.getElementById('modalContato').showModal()">
+        Enviar informações de contato
+    </button>
+
+    <!-- formulário modal -->
+    <dialog id="modalContato">
+
+        <h2>Informações de contato</h2>
+
+        <form method="dialog">
+
+            <p>
+                <label for="nome">Nome Completo:</label>
+                <br>
+                <input type="text" id="nome" name="nome" required>
+            </p>
+
+            <p>
+                <label for="instagram">Link para o Instagram:</label>
+                <br>
+                <input type="url" id="instagram" name="instagram">
+            </p>
+
+            <p>
+                <label for="whatsapp">Número do WhatsApp:</label>
+                <br>
+                <input type="tel" id="whatsapp" name="whatsapp" required>
+            </p>
+
+            <button type="submit">
+                Enviar
+            </button>
+
+            <button type="button" onclick="document.getElementById('modalContato').close()">
+                Fechar
+            </button>
+
+        </form>
+
+    </dialog>
+
+    
+</body>
+</html>
